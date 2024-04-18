@@ -237,7 +237,7 @@ footer {
   filter: blur(0px);
 }
 
-@media (max-width: 769px) {
+@media (max-width: 320px) {
   .nav {
     height: auto;
     font-size: medium;
