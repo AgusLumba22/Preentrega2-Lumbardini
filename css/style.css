@@ -1,0 +1,342 @@
+/*nav*/
+.nav {
+  background-color: bisque;
+  text-align: center;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  font-size: 30px;
+  justify-content: space-around;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+/*titulo*/
+.title {
+  font-family: fantasy;
+  font-size: 56px;
+  text-align: left;
+  color: aliceblue;
+  margin: 10px;
+}
+
+.sub1 {
+  color: aliceblue;
+  margin: 10px;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.historia {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  height: 200px;
+  display: flex;
+  justify-content: left;
+}
+
+.fondo-principal {
+  background-image: url(../fotosyvideos/descarga.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+footer {
+  background-color: bisque;
+  text-align: center;
+}
+
+.copy {
+  color: black;
+}
+
+.org {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pluh {
+  background-color: color(from color srgb r g b);
+  height: 500px;
+  width: 500px;
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+.sub2 {
+  color: aliceblue;
+  margin: 10px;
+}
+
+.space {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.ajustar {
+  object-fit: cover;
+}
+.interwievs {
+  color: aliceblue;
+}
+.notes {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.olga {
+  width: 200px;
+}
+.ibai {
+  width: 200px;
+}
+.grego {
+  width: 200px;
+}
+.resistencia {
+  width: 200px;
+}
+.inter {
+  width: 200px;
+}
+
+.fame {
+  color: aliceblue;
+}
+.cancion {
+  justify-content: space-around;
+  width: 400px;
+}
+.albumes {
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+}
+.ssj {
+  width: 220px;
+  object-fit: cover;
+}
+.antezana {
+  width: 220px;
+  object-fit: cover;
+}
+.defdm {
+  width: 220px;
+  object-fit: cover;
+}
+.ter1 {
+  width: 220px;
+  object-fit: cover;
+}
+.ter2 {
+  width: 220px;
+  object-fit: cover;
+}
+.ada {
+  width: 220px;
+  object-fit: cover;
+}
+.discos {
+  color: aliceblue;
+}
+.contact {
+  background-color: black;
+}
+.contacto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  color: aliceblue;
+}
+.search {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.designer {
+  background-color: black;
+}
+.quien {
+  font-family: sans-serif;
+  color: aliceblue;
+}
+.imgyo {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin: 20px;
+}
+
+/*carousel*/
+.carousel-inner,
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item active {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+}
+
+.box-item {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-area: "caja1 caja2 caja3";
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.box1 img {
+  width: 400px;
+  height: 400px;
+  grid-area: caja1;
+  filter: blur(5px);
+}
+.box2 img {
+  width: 400px;
+  height: 400px;
+  grid-area: caja2;
+  filter: blur(5px);
+}
+.box3 img {
+  width: 400px;
+  height: 400px;
+  grid-area: caja3;
+  filter: blur(5px);
+}
+
+.box1 img:hover {
+  width: 450px;
+  height: 450px;
+  grid-area: caja1;
+  filter: blur(0px);
+}
+.box2 img:hover {
+  width: 450px;
+  height: 450px;
+  grid-area: caja2;
+  filter: blur(0px);
+}
+.box3 img:hover {
+  width: 450px;
+  height: 450px;
+  grid-area: caja3;
+  filter: blur(0px);
+}
+
+@media (max-width: 351px) {
+  .nav {
+    height: auto;
+    font-size: medium;
+  }
+  .fondo-principal {
+    background-color: black;
+    background-size: 100%;
+  }
+  footer div {
+    font-size: small;
+    height: auto;
+  }
+
+  .title {
+    font-size: 90px;
+    text-align: center;
+  }
+  h2 {
+    font-size: large;
+    text-align: center;
+  }
+  .hero {
+    display: grid;
+    grid-template-columns: 100%;
+    height: auto;
+  }
+
+  .historia {
+    text-align: justify;
+    font-size: small;
+    height: 480px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+    width: 300px;
+  }
+  p {
+    font-size: small;
+  }
+  iframe {
+    height: 120px;
+    width: 50px;
+  }
+  .albumes {
+    display: grid;
+    grid-template-columns: 10% 10%;
+    justify-content: space-between;
+  }
+  .notes {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: space-between;
+  }
+
+  .pluh {
+    font-size: small;
+    height: auto;
+  }
+
+  .box-item {
+    height: 200px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .box1 img {
+    height: 100%;
+    width: 100px;
+  }
+  .box2 img {
+    height: 100%;
+    width: 100px;
+  }
+  .box3 img {
+    height: 100%;
+    width: 100px;
+  }
+  .box1 img:hover {
+    height: 100%;
+    width: 100px;
+    filter: blur(0px);
+  }
+  .box2 img:hover {
+    height: 100%;
+    width: 100px;
+    filter: blur(0px);
+  }
+  .box3 img:hover {
+    height: 100%;
+    width: 100px;
+    filter: blur(0px);
+  }
+  .org {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    height: auto;
+  }
+  .cancion {
+    height: 300px;
+  }
+}
