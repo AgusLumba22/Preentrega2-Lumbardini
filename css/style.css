@@ -197,7 +197,7 @@ footer {
 .box-item {
   display: grid;
   grid-template-columns: 25% 25% 25%;
-  grid-area: "caja1 caja2 caja3";
+
   gap: 10px;
   padding: 10px;
   justify-content: space-around;
