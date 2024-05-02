@@ -1,16 +1,20 @@
 /*nav*/
-.nav {
+.nav ul {
+  display: flex;
   background-color: bisque;
-  text-align: center;
-  text-decoration: none;
+  text-decoration: black;
   position: sticky;
   top: 0;
   font-size: 30px;
   justify-content: space-around;
+  width: 100%;
+  flex-direction: row;
+  list-style: none;
 }
+
 .nav a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 /*titulo*/
 .title {
@@ -199,48 +203,26 @@ footer {
   justify-content: space-around;
 }
 
-.box1 img {
+.box img {
   width: 400px;
   height: 400px;
   grid-area: caja1;
   filter: blur(5px);
-}
-.box2 img {
-  width: 400px;
-  height: 400px;
-  grid-area: caja2;
-  filter: blur(5px);
-}
-.box3 img {
-  width: 400px;
-  height: 400px;
-  grid-area: caja3;
-  filter: blur(5px);
+  transition: 0.4s;
 }
 
-.box1 img:hover {
+.box img:hover {
   width: 450px;
   height: 450px;
   grid-area: caja1;
-  filter: blur(0px);
-}
-.box2 img:hover {
-  width: 450px;
-  height: 450px;
-  grid-area: caja2;
-  filter: blur(0px);
-}
-.box3 img:hover {
-  width: 450px;
-  height: 450px;
-  grid-area: caja3;
   filter: blur(0px);
 }
 
 @media (max-width: 500px) {
-  .nav {
+  .nav ul {
     height: auto;
     font-size: medium;
+    width: 100%;
   }
   .fondo-principal {
     background-color: black;
@@ -297,8 +279,14 @@ footer {
   }
   .notes {
     display: grid;
-    grid-template-columns: 25% 25%;
-    justify-content: space-between;
+    grid-template-columns: 100%;
+    height: 1200px;
+    width: 600px;
+    width: fit-content;
+  }
+  .notes iframe {
+    height: 200px;
+    width: 300px;
   }
 
   .pluh {
@@ -306,12 +294,16 @@ footer {
     height: auto;
     margin: 10px;
   }
+  .box-item {
+    height: 370px;
+  }
 
   .box-item img {
     height: 200px;
     width: 100px;
     justify-content: space-between;
     filter: blur(5px);
+    transition: 0.4s;
   }
   .box-item img:hover {
     height: 100%;
