@@ -1,4 +1,27 @@
-/*nav*/
+.fondo-principal {
+  background-image: url(../fotosyvideos/descarga.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 56px;
+  text-align: left;
+  color: aliceblue;
+  margin: 10px;
+}
+
+h2 {
+  color: aliceblue;
+  margin: 10px;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+}
+
 .nav ul {
   display: flex;
   background-color: bisque;
@@ -16,24 +39,16 @@
   color: black;
   text-decoration: none;
 }
-/*titulo*/
-.title {
-  font-family: fantasy;
-  font-size: 56px;
-  text-align: left;
-  color: aliceblue;
-  margin: 10px;
+
+footer {
+  background-color: bisque;
+  text-align: center;
 }
 
-.sub1 {
-  color: aliceblue;
-  margin: 10px;
+.copy {
+  color: black;
 }
 
-p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: aliceblue;
-}
 .hero {
   height: 100%;
   display: flex;
@@ -48,139 +63,6 @@ p {
   justify-content: left;
 }
 
-.fondo-principal {
-  background-image: url(../fotosyvideos/descarga.jpeg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-footer {
-  background-color: bisque;
-  text-align: center;
-}
-
-.copy {
-  color: black;
-}
-
-.org {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.pluh {
-  background-color: color(from color srgb r g b);
-  height: 500px;
-  width: 500px;
-  color: aliceblue;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 18px;
-}
-
-.sub2 {
-  color: aliceblue;
-  margin: 10px;
-}
-
-.space {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.ajustar {
-  object-fit: cover;
-}
-.interwievs {
-  color: aliceblue;
-}
-.notes {
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.olga {
-  width: 200px;
-}
-.ibai {
-  width: 200px;
-}
-.grego {
-  width: 200px;
-}
-.resistencia {
-  width: 200px;
-}
-.inter {
-  width: 200px;
-}
-
-.fame {
-  color: aliceblue;
-}
-.cancion {
-  justify-content: space-around;
-  width: 400px;
-}
-.albumes {
-  display: flex;
-  height: 400px;
-  justify-content: space-between;
-}
-.ssj {
-  width: 220px;
-  object-fit: cover;
-}
-.antezana {
-  width: 220px;
-  object-fit: cover;
-}
-.defdm {
-  width: 220px;
-  object-fit: cover;
-}
-.ter1 {
-  width: 220px;
-  object-fit: cover;
-}
-.ter2 {
-  width: 220px;
-  object-fit: cover;
-}
-.ada {
-  width: 220px;
-  object-fit: cover;
-}
-.discos {
-  color: aliceblue;
-}
-.contact {
-  background-color: black;
-}
-.contacto {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 48px;
-  color: aliceblue;
-}
-.search {
-  color: aliceblue;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-.designer {
-  background-color: black;
-}
-.quien {
-  font-family: sans-serif;
-  color: aliceblue;
-}
-.imgyo {
-  height: 300px;
-  width: 300px;
-  object-fit: cover;
-  margin: 20px;
-}
-
-/*carousel*/
 .carousel-inner,
 .carousel-item {
   height: 500px;
@@ -192,6 +74,68 @@ footer {
 
 .carousel-item img {
   height: 100%;
+}
+
+.albumes {
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.ssj {
+  width: 220px;
+  object-fit: cover;
+}
+
+.antezana {
+  width: 220px;
+  object-fit: cover;
+}
+
+.defdm {
+  width: 220px;
+  object-fit: cover;
+}
+
+.ter1 {
+  width: 220px;
+  object-fit: cover;
+}
+
+.ter2 {
+  width: 220px;
+  object-fit: cover;
+}
+
+.ada {
+  width: 220px;
+  object-fit: cover;
+}
+
+.notes {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.olga {
+  width: 200px;
+}
+
+.ibai {
+  width: 200px;
+}
+
+.grego {
+  width: 200px;
+}
+
+.resistencia {
+  width: 200px;
+}
+
+.inter {
+  width: 200px;
 }
 
 .box-item {
@@ -217,6 +161,37 @@ footer {
   filter: blur(0px);
 }
 
+.cancion {
+  justify-content: space-around;
+  width: 400px;
+}
+
+.notes {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.olga {
+  width: 200px;
+}
+
+.ibai {
+  width: 200px;
+}
+
+.grego {
+  width: 200px;
+}
+
+.resistencia {
+  width: 200px;
+}
+
+.inter {
+  width: 200px;
+}
+
 @media (max-width: 500px) {
   .nav ul {
     height: auto;
@@ -231,7 +206,6 @@ footer {
     font-size: small;
     height: auto;
   }
-
   .title {
     font-size: 90px;
     text-align: center;
@@ -245,14 +219,12 @@ footer {
     grid-template-columns: 100%;
     height: auto;
   }
-
   .historia {
     text-align: justify;
     font-size: small;
     height: 480px;
     padding: 10px;
   }
-
   .carousel-item img {
     height: 300px;
     width: 300px;
@@ -287,7 +259,6 @@ footer {
     height: 200px;
     width: 300px;
   }
-
   .pluh {
     font-size: small;
     height: auto;
@@ -296,7 +267,6 @@ footer {
   .box-item {
     height: 370px;
   }
-
   .box-item img {
     height: 200px;
     width: 100px;
@@ -309,7 +279,6 @@ footer {
     width: 100px;
     filter: blur(0px);
   }
-
   .org {
     display: grid;
     grid-template-columns: 1fr;
@@ -320,3 +289,5 @@ footer {
     height: 300px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
