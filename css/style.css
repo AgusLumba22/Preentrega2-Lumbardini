@@ -21,6 +21,7 @@ p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: aliceblue;
   margin: 5px;
+  font-size: 50px;
 }
 
 .nav ul {
@@ -206,6 +207,37 @@ footer {
 
 .inter {
   width: 200px;
+}
+
+.contact {
+  background-color: black;
+}
+
+.contacto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 48px;
+  color: aliceblue;
+}
+
+.search {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.designer {
+  background-color: black;
+}
+
+.quien {
+  font-family: sans-serif;
+  color: aliceblue;
+}
+
+.imgyo {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin: 20px;
 }
 
 @media (max-width: 768px) {
