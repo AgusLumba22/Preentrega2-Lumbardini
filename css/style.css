@@ -440,7 +440,7 @@ footer {
 @media (max-width: 1366px) {
   .nav ul {
     height: auto;
-    font-size: 50px;
+    font-size: 30px;
     width: 100%;
   }
   .fondo-principal {
@@ -448,16 +448,16 @@ footer {
     background-size: 100%;
   }
   footer div {
-    font-size: 30px;
+    font-size: 20px;
     height: auto;
   }
   .title {
-    font-size: 150px;
-    text-align: center;
+    font-size: 70px;
+    text-align: left;
   }
   h2 {
     font-size: 40px;
-    text-align: center;
+    text-align: left;
   }
   .hero {
     display: grid;
@@ -467,7 +467,7 @@ footer {
   .historia {
     text-align: justify;
     font-size: 20px;
-    height: 600px;
+    height: 400px;
     padding: 10px;
   }
   .carousel-item img {
