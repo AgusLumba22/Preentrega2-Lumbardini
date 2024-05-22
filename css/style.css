@@ -1,45 +1,48 @@
 .fondo-principal {
   background-image: url(../fotosyvideos/descarga.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
 }
 
-h1 {
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.posteo-texto {
+  width: 70%;
+  margin: 100px 15%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.posteo-texto h1 {
   font-family: fantasy;
   font-size: 56px;
   text-align: left;
   color: aliceblue;
-  margin: 10px;
 }
-
-h2 {
+.posteo-texto h2 {
   color: aliceblue;
-  margin: 10px;
 }
 
-p {
+.posteo-contenido {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: aliceblue;
-  margin: 5px;
-  height: auto;
-}
-
-.nav ul {
-  display: flex;
-  background-color: bisque;
-  text-decoration: black;
-  position: sticky;
-  top: 0;
   font-size: 30px;
-  justify-content: space-around;
-  width: 100%;
-  flex-direction: row;
-  list-style: none;
 }
 
-.nav a {
+.navbar {
+  background-color: bisque !important;
+  padding: 5px 10%;
+}
+
+.copy {
   color: black;
-  text-decoration: none;
+  margin: 0px;
+}
+
+main {
+  min-height: 85vh;
 }
 
 footer {
@@ -51,23 +54,10 @@ footer {
   color: black;
 }
 
-.hero {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.historia {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: aliceblue;
-  height: 200px;
-  display: flex;
-  justify-content: left;
-}
-
 .carousel-inner,
 .carousel-item {
   height: 500px;
+  margin-bottom: 80px;
 }
 
 .carousel-item active {
@@ -78,40 +68,17 @@ footer {
   height: 100%;
 }
 
-.albumes {
+.posteo-media {
   display: flex;
   height: 356px;
   justify-content: space-between;
+  width: 80%;
+  margin: auto;
 }
-
-.ssj {
-  width: 200px;
+.posteo-media iframe {
+  width: 14%;
   object-fit: cover;
-}
-
-.antezana {
-  width: 200px;
-  object-fit: cover;
-}
-
-.defdm {
-  width: 200px;
-  object-fit: cover;
-}
-
-.ter1 {
-  width: 200px;
-  object-fit: cover;
-}
-
-.ter2 {
-  width: 200px;
-  object-fit: cover;
-}
-
-.ada {
-  width: 200px;
-  object-fit: cover;
+  border-radius: 12px;
 }
 
 .notes {
@@ -153,14 +120,12 @@ footer {
   height: 300px;
   grid-area: caja1;
   filter: blur(5px);
-  transition: 0.4s;
+  transition: transform 0.3s ease-in-out;
 }
 
 .box img:hover {
-  width: 350px;
-  height: 350px;
-  grid-area: caja1;
   filter: blur(0px);
+  transform: scale(1.1);
 }
 
 .org {
@@ -368,106 +333,6 @@ footer {
     text-align: justify;
     font-size: 30px;
     height: 850px;
-    padding: 10px;
-  }
-  .carousel-item img {
-    height: 400px;
-    width: 400px;
-  }
-  p {
-    font-size: 20px;
-    margin: 10px;
-    height: auto;
-  }
-  iframe {
-    height: 40px;
-    width: 100%;
-  }
-  .albumes {
-    display: grid;
-    grid-template-columns: 100%;
-    height: 1200px;
-    width: 800px;
-  }
-  .albumes iframe {
-    height: 200px;
-    width: 300px;
-  }
-  .notes {
-    display: grid;
-    grid-template-columns: 100%;
-    height: 1200px;
-    width: 600px;
-    width: fit-content;
-  }
-  .notes iframe {
-    height: 200px;
-    width: 300px;
-  }
-  .pluh {
-    font-size: 25px;
-    height: auto;
-    margin: 10px;
-    width: 1000px;
-  }
-  .box-item {
-    height: 370px;
-  }
-  .box-item img {
-    display: block;
-    height: 250px;
-    width: 250px;
-    justify-content: space-around;
-    filter: blur(5px);
-    transition: 0.4s;
-    padding-right: 5px;
-  }
-  .box-item img:hover {
-    height: 300px;
-    width: 300px;
-    filter: blur(0px);
-  }
-  .org {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 50px;
-    height: auto;
-  }
-  .cancion {
-    height: 300px;
-  }
-}
-@media (max-width: 1366px) {
-  .nav ul {
-    height: auto;
-    font-size: 30px;
-    width: 100%;
-  }
-  .fondo-principal {
-    background-color: black;
-    background-size: 100%;
-  }
-  footer div {
-    font-size: 20px;
-    height: auto;
-  }
-  .title {
-    font-size: 70px;
-    text-align: left;
-  }
-  h2 {
-    font-size: 40px;
-    text-align: left;
-  }
-  .hero {
-    display: grid;
-    grid-template-columns: 100%;
-    height: auto;
-  }
-  .historia {
-    text-align: justify;
-    font-size: 20px;
-    height: 400px;
     padding: 10px;
   }
   .carousel-item img {

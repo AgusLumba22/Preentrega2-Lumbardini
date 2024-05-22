@@ -1,24 +1,53 @@
 .fondo-principal {
   background-image: url(../fotosyvideos/descarga.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 100%;
 }
 
-h1 {
-  font-family: fantasy;
-  font-size: 56px;
-  text-align: left;
-  color: aliceblue;
-  margin: 10px;
-}
-h2 {
-  color: aliceblue;
-  margin: 10px;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
-p {
+.posteo-texto {
+  width: 70%;
+  margin: 100px 15%;
+  background-color: rgba(0, 0, 0, 0.5);
+  h1 {
+    font-family: fantasy;
+    font-size: 56px;
+    text-align: left;
+    color: aliceblue;
+  }
+
+  h2 {
+    color: aliceblue;
+  }
+
+  // p {
+  //   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  //   color: aliceblue;
+  //   font-size: 100px;
+  // }
+}
+
+.posteo-contenido {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: aliceblue;
-  margin: 5px;
-  height: auto;
+  font-size: 30px;
+}
+
+.navbar {
+  background-color: bisque !important;
+  padding: 5px 10%;
+}
+
+.copy {
+  color: black;
+  margin: 0px;
+}
+
+main {
+  min-height: 85vh;
 }

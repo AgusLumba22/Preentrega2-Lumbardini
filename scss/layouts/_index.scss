@@ -1,20 +1,7 @@
-.hero {
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.historia {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: aliceblue;
-  height: 200px;
-  display: flex;
-  justify-content: left;
-}
-
 .carousel-inner,
 .carousel-item {
   height: 500px;
+  margin-bottom: 80px;
 }
 
 .carousel-item active {

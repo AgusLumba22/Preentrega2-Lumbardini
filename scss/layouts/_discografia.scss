@@ -1,29 +1,37 @@
-.albumes {
+.posteo-media {
   display: flex;
   height: 356px;
   justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  iframe {
+    width: 14%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
 }
-.ssj {
-  width: 200px;
-  object-fit: cover;
-}
-.antezana {
-  width: 200px;
-  object-fit: cover;
-}
-.defdm {
-  width: 200px;
-  object-fit: cover;
-}
-.ter1 {
-  width: 200px;
-  object-fit: cover;
-}
-.ter2 {
-  width: 200px;
-  object-fit: cover;
-}
-.ada {
-  width: 200px;
-  object-fit: cover;
-}
+
+// .ssj {
+//   width: 200px;
+//   object-fit: cover;
+// }
+// .antezana {
+//   width: 200px;
+//   object-fit: cover;
+// }
+// .defdm {
+//   width: 200px;
+//   object-fit: cover;
+// }
+// .ter1 {
+//   width: 200px;
+//   object-fit: cover;
+// }
+// .ter2 {
+//   width: 200px;
+//   object-fit: cover;
+// }
+// .ada {
+//   width: 200px;
+//   object-fit: cover;
+// }
