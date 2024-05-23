@@ -1,20 +1,3 @@
-.notes {
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.olga {
-  width: 200px;
-}
-.ibai {
-  width: 200px;
-}
-.grego {
-  width: 200px;
-}
-.resistencia {
-  width: 200px;
-}
-.inter {
-  width: 200px;
+iframe {
+  @include item-media;
 }

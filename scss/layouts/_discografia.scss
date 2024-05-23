@@ -1,37 +1,11 @@
 .posteo-media {
-  display: flex;
-  height: 356px;
-  justify-content: space-between;
-  width: 80%;
-  margin: auto;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: 100px auto;
+
   iframe {
-    width: 14%;
-    object-fit: cover;
-    border-radius: 12px;
+    @include item-media;
   }
 }
-
-// .ssj {
-//   width: 200px;
-//   object-fit: cover;
-// }
-// .antezana {
-//   width: 200px;
-//   object-fit: cover;
-// }
-// .defdm {
-//   width: 200px;
-//   object-fit: cover;
-// }
-// .ter1 {
-//   width: 200px;
-//   object-fit: cover;
-// }
-// .ter2 {
-//   width: 200px;
-//   object-fit: cover;
-// }
-// .ada {
-//   width: 200px;
-//   object-fit: cover;
-// }

@@ -16,33 +16,53 @@ header {
   background-color: rgba(0, 0, 0, 0.5);
   h1 {
     font-family: fantasy;
-    font-size: 56px;
-    text-align: left;
+    font-size: 100px;
+    text-align: center;
     color: aliceblue;
   }
 
   h2 {
     color: aliceblue;
+    font-size: 40px;
+    text-align: center;
   }
-
-  // p {
-  //   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  //   color: aliceblue;
-  //   font-size: 100px;
-  // }
 }
+
+// .posteo-texto:hover {
+//   text-shadow: 20px;
+// }
 
 .posteo-contenido {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: aliceblue;
   font-size: 30px;
+  margin: 5px 15%;
 }
 
 .navbar {
   background-color: bisque !important;
   padding: 5px 10%;
+  font-size: 40px;
+  .navbar-brand {
+    font-size: 60px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+  }
+  .navbar-brand:hover {
+    transform: scale(1.1);
+  }
+  .navbar-item {
+    margin-left: 100px;
+  }
 }
 
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: 50px;
+  transition: transform 0.3s ease-in-out;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  transform: scale(1.1);
+}
 .copy {
   color: black;
   margin: 0px;
@@ -50,4 +70,19 @@ header {
 
 main {
   min-height: 85vh;
+}
+
+.posteo-media {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: 100px auto;
+
+  iframe {
+    height: 300px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 10% 20px;
+  }
 }
